@@ -1,0 +1,22 @@
+{
+  "name": "node-dind-example",
+  "description": "A super simple hello world node.js app built docker-in-docker style",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+}
