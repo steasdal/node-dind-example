@@ -16,7 +16,7 @@ The app should now be running at [localhost:5000](http://localhost:5000/).
 
 ## Running the Node.js app in Docker
 
-docker run -p 5000:5000 --name node-dind-example --rm steasdal/node-dind-example
+    docker run -p 5000:5000 --name node-dind-example --rm steasdal/node-dind-example
 
 Once again, you should be able to hit the app at [localhost:5000](http://localhost:5000/). 
 
