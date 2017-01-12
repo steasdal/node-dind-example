@@ -1,6 +1,6 @@
 {
   "name": "node-dind-example",
-  "description": "A super simple hello world node.js app built docker-in-docker style",
+  "description": "A super simple hello world node.js app that we'll build docker-in-docker style",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
