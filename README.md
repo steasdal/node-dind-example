@@ -26,3 +26,12 @@ have one, the script will display a warning but continue on.  You'll then also s
 "internal" section of the build script when it attempts to push the freshly built image up to the official
 Docker hub.  Again, just ignore those warnings.
 
+## Automated Build  [![Build Status](https://travis-ci.org/steasdal/node-dind-example.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+This project builds automatically on [Travis CI](https://travis-ci.org/).  Build results are available here:
+
+   * [https://travis-ci.org/steasdal/node-dind-example](https://travis-ci.org/steasdal/node-dind-example)
+
+## Docker Image
+Successful docker-in-docker builds result in a fresh docker image pushed to the official Docker Hub:
+
+   * [https://hub.docker.com/r/steasdal/node-dind-example/](https://hub.docker.com/r/steasdal/node-dind-example/)
